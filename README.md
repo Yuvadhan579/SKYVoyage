@@ -1,44 +1,34 @@
 <div align="center">
 
-  # 🛸 `S K Y V O Y A G E` // `v2.0`
-  **NEXT-GEN AVIATION TELEMETRY & AUTONOMOUS TRAVEL ENGINE**
+# `SKYVOYAGE`
 
-  [![System Status](https://img.shields.io/badge/SYSTEM-ONLINE-00f0ff?style=for-the-badge&logo=statuspage&logoColor=000000)](#)
-  [![TypeScript](https://img.shields.io/badge/CORE-TYPESCRIPT_90.8%25-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#)
-  [![React](https://img.shields.io/badge/HUD-REACT_/_VITE-61DAFB?style=for-the-badge&logo=react&logoColor=000000)](#)
-  [![Node.js](https://img.shields.io/badge/ENGINE-NODE_/_EXPRESS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](#)
+**Full-stack flight routing, telemetry, and travel logistics engine.**
 
-  *Precision flight routing, real-time airspace analytics, and seamless full-stack orchestration.*
+![TypeScript](https://img.shields.io/badge/TypeScript-90.8%25-18181b?style=flat-square&logo=typescript&logoColor=3178C6)
+![React](https://img.shields.io/badge/Frontend-React%20%2F%20Vite-18181b?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Backend-Node%20%2F%20Express-18181b?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Tailwind](https://img.shields.io/badge/UI-Tailwind%20CSS-18181b?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Status](https://img.shields.io/badge/Build-Active-18181b?style=flat-square)
 
 </div>
 
 ---
 
-## ⚡ `01 // SYSTEM OVERVIEW`
+### Core Capabilities
 
-**SKYVoyage** is a full-stack aviation and travel platform engineered for speed, clarity, and responsive spatial navigation. Combining a reactive TypeScript HUD (Heads-Up Display) with a dedicated Express telemetry core, it bridges complex travel logistics with an intuitive, zero-latency user experience.
-
----
-
-## 🧬 `02 // CORE ARCHITECTURE`
-
-| Subsystem | Stack & Protocols | Designation |
+| Module | Stack | Function |
 | :--- | :--- | :--- |
-| **Frontend HUD** | `TypeScript` • `React` • `Vite` • `Tailwind CSS` | Reactive user interface, flight visualization, and client state |
-| **Backend Core** | `Node.js` • `Express` (`/server`) | RESTful API gateway, data processing, and route orchestration |
-| **Launch Matrix** | `PowerShell` • `Batch` • `Bash` | Cross-platform automated deployment (`run.*` / `start.bat`) |
-| **Asset Vault** | `Static Media` (`/public/images`) | High-resolution aviation graphics and UI visual modules |
+| **Telemetry HUD** | `React` • `TypeScript` • `Tailwind` | Real-time state updates for flight tracking, altitude/speed vectors, and route progress |
+| **Route Engine** | `Node.js` • `Express` | Decoupled `/server` layer for multi-leg pathfinding and schedule validation |
+| **Build Pipeline** | `Vite` • `PostCSS` | Fast HMR development and optimized static asset bundling |
+| **Auto-Launchers** | `PowerShell` • `Batch` • `Bash` | Cross-platform startup scripts (`run.ps1`, `run.bat`, `run.sh`) for deterministic setup |
 
 ---
 
-## 🛰️ `03 // DIRECTORY TOPOLOGY`
+### Quickstart
 
-```text
-SKYVoyage/
- ├── 📂 public/images/   # High-res visual assets & telemetry graphics
- ├── 📂 scripts/         # Automated build & environment protocols
- ├── 📂 server/          # Dedicated Node/Express backend core
- ├── 📂 src/             # TypeScript HUD source & UI components
- ├── ⚙️ .env.example     # Environment variable blueprint
- ├── ⚡ vite.config.ts   # Vite ultra-fast bundler configuration
- └── 🚀 run.* / start.bat # One-click cross-OS ignition scripts
+#### 1. Clone & configure environment
+```bash
+git clone [https://github.com/Yuvadhan579/SKYVoyage.git](https://github.com/Yuvadhan579/SKYVoyage.git)
+cd SKYVoyage
+cp .env.example .env
